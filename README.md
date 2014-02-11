@@ -6,13 +6,13 @@ test jax-rs
 A sample project of a Java web application.
 This project is based on:
 
-* [JAX-RS API](https://java.net/projects/jax-rs-spec) — Java API for RESTful services
-  * [Jersey](https://jersey.java.net/) — JAX-RS implementation
-* [Gradle](http://www.gradle.org/) — Build Automation tool
+* [JAX-RS API](https://java.net/projects/jax-rs-spec) - Java API for RESTful services
+  * [Jersey](https://jersey.java.net/) - JAX-RS implementation
+* [Gradle](http://www.gradle.org/) - Build Automation tool
 
 On this project, an application server used in a development cycle is:
 
-* [Jetty](http://www.eclipse.org/jetty/) — Servlet engine and HTTP server
+* [Jetty](http://www.eclipse.org/jetty/) - Servlet engine and HTTP server
 
 ## Building and running
 
@@ -24,15 +24,15 @@ On this project, an application server used in a development cycle is:
 
 ```
 gradlew --daemon jettyRun
-```
+
 
 ### Running tests
 
 ```
 gradlew --daemon test
 
-### generate idea files 
-http://www.gradle.org/docs/current/userguide/idea_plugin.html
+## generate idea files
+[Using idea plugin](http://www.gradle.org/docs/current/userguide/idea_plugin.html)
 
 ```
 gradlew idea
