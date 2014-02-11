@@ -5,5 +5,11 @@
 *.war
 *.ear
 
+## gradle
 /.gradle/
 /build/
+
+## intellij 
+*.iml
+*.ipr
+*.iws

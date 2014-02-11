@@ -30,3 +30,11 @@ gradlew --daemon jettyRun
 
 ```
 gradlew --daemon test
+
+### generate idea files 
+http://www.gradle.org/docs/current/userguide/idea_plugin.html
+
+```
+gradlew idea
+
+
