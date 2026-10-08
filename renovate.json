@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
+  "enabled": false,
+  "description": [
+    "Renovate is disabled for this repository. build.gradle uses Gradle's removed jetty plugin and the removed compile/testCompile configurations, so the build cannot run on any current Gradle regardless of dependency versions, and the only check configured here is Snyk, which does not build anything.",
+    "The dependency versions were brought current before disabling: javax.ws.rs-api 2.1.1 and the Jersey monorepo at 2.48, the last line that keeps the javax.ws.rs namespace this source uses. Jersey 3 and 4 move to jakarta.ws.rs, which is a source change rather than a version bump, so PR #5 was closed rather than merged."
   ]
 }
